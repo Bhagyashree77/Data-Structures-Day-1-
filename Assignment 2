@@ -1,0 +1,33 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+    int n;
+    char a[10];
+    scanf("%d",&n);
+    switch (n)
+    {
+        case 1:
+            strcpy(a,"Monday");
+            break;
+        case 2:
+            strcpy(a,"Tuesday");
+            break;
+        case 3:
+            strcpy(a,"Wednesday");
+            break;
+        case 4:
+            strcpy(a,"Thursday");
+            break;
+        case 5:
+            strcpy(a,"Friday");
+            break;
+        case 6:
+            strcpy(a,"Saturday");
+            break;
+        case 7:
+            strcpy(a,"Sunday");
+            break;
+    }
+    printf("%s",a);
+}
